@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+}
+.bannerBackground{
+  background: #232323;
+}
+.bannerHeading
+{
+  color: rgba(255, 0, 0, 0.76);
+  text-align: center;
+}
+.bannerPara{
+  text-align: center;
+  color: rgb(255, 196, 78);
+}
+.dots{
+ text-align: center;
+}
+canvas {
+  background: #232323;
+  width: 70vw;
+  height: 30vw;
+}
+#bodyBackground{
+  background: url(dots.jpeg);
+}
+/* to counter horizontal scroll problem */
+.horizontalscroll{
+  padding-top: 10px;
+  margin: auto;
+}
